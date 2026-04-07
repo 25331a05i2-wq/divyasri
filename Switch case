@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main(){
+int a,b,choice;
+printf(“25331A05I2\n”);
+printf("enter two numbers");
+scanf("%d %d",&a,&b);
+printf("\n1.add\n2.subtract\n3.product\n4.divide\n");
+printf("enter your choice\n");
+scanf("%d",&choice);
+switch(choice){
+case 1:
+printf("result=%d\n",a+b);
+break;
+case 2:
+printf("result=%d\n",a-b);
+break;
+case 3:
+printf("result=%d\n",a*b);
+break;
+case 4:
+printf("result=%d\n",a/b);
+break;
+default:
+printf("invalid choice\n");
+}
+return 0;
+}
