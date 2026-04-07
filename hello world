@@ -1,0 +1,8 @@
+
+  include <stdio.h>
+     int main() 
+    {
+  primtf(“25331A05I2\n”);
+   Printf("Hello, World!");
+    return 0;
+    }
